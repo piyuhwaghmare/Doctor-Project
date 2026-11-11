@@ -5,12 +5,12 @@ Commit to Git after every working step. Do not start a phase until the previous 
 
 ## Phase 0: Setup and spec (Week 1-2)
 
-- Tools installed and verified (Git, VS Code, Python 3.12 via uv, Node, Docker)
-- Repo created at `C:\dev\medagent` with `.gitignore` (includes `.env`)
-- `PROJECT_SPEC.md`, `PLAN.md`, `.github/copilot-instructions.md` committed
+- Tools installed and verified (Git, VS Code, Python 3.14 via uv, Node, Docker)
+- Existing `Doctor-Project` repository has a `.gitignore` that excludes `.env`
+- `README.md` (project spec), `PLAN.md`, and `.github/copilot-instructions.md` committed
 - Research questions approved by tutor
 - Guideline PDFs collected into `data/documents/` with `sources.csv` (title, url, year, tier)
-- API keys in `.env` (Gemini, Tavily, NCBI, Langfuse)
+- API keys configured locally in an untracked `.env` (Gemini, Tavily, NCBI, Langfuse)
 **Done when:** repo is on GitHub and tutor has signed off on RQs.
 
 ## Phase 1: Foundation (Week 3-4)

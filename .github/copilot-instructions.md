@@ -1,6 +1,6 @@
 # Copilot instructions for MedAgent
 
-Read `PROJECT_SPEC.md` and `PLAN.md` before any task. They are the source of truth.
+Read `README.md` (the project spec) and `PLAN.md` before any task. They are the source of truth.
 
 ## How to work
 
@@ -10,7 +10,7 @@ Read `PROJECT_SPEC.md` and `PLAN.md` before any task. They are the source of tru
 - If the spec is unclear or something conflicts, ask instead of guessing.
 - Do not add libraries without telling me why.
 
-## Backend (Python 3.12, FastAPI)
+## Backend (Python 3.14 target, FastAPI)
 
 - Python is managed with `uv`. Use `uv add` and `uv run`, never plain `pip`.
 - Type hints everywhere. Use Pydantic models for API schemas and for structured LLM outputs.

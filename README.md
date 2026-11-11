@@ -152,7 +152,7 @@ class GraphState(TypedDict):
 | Layer | Choice |
 |---|---|
 | Frontend | Next.js, Tailwind, shadcn/ui |
-| Backend | FastAPI (Python 3.12, managed with `uv`) |
+| Backend | FastAPI (Python 3.14 target, managed with `uv`) |
 | Orchestration | LangGraph + LangChain |
 | LLM | Gemini via API (model name from env var `GEMINI_MODEL`) |
 | Embeddings | Configurable via env; pgvector for storage |
@@ -163,6 +163,8 @@ class GraphState(TypedDict):
 | Web retrieval | PubMed E-utilities + Tavily with domain allow-list |
 | Tracing | Langfuse or LangSmith |
 | Evaluation | RAGAS / DeepEval + custom scripts |
+
+Python 3.14 is the selected backend target. Validate dependency compatibility during setup before treating the backend as verified.
 
 ## 10. Evaluation metrics
 
